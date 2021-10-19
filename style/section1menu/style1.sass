@@ -1,0 +1,117 @@
+$internationalColor: #ff0000
+body 
+  background-color: #402AC0 !important
+ 
+
+body .main 
+  background-color: #ccc
+
+
+body .main .search_and_new_film 
+  background-color: #212121
+  border-bottom: 1px solid #fff
+  height: 50px
+
+
+body .main .search_and_new_film .new_film p 
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  margin-top: 12px
+  margin-left: 16px
+  text-transform: uppercase
+  color: #FF0000
+  text-transform: uppercase
+  opacity: 0.75
+  -webkit-animation-name: scale_text
+  animation-name: scale_text
+  -webkit-animation-duration: 1.25s
+  animation-duration: 1.25s
+  -webkit-animation-iteration-count: infinite
+  animation-iteration-count: infinite
+  -webkit-animation-timing-function: ease-in-out
+  animation-timing-function: ease-in-out
+
+
+@-webkit-keyframes scale_text 
+  from 
+    -webkit-transform: scale(1)
+    transform: scale(1)
+  
+  to 
+    -webkit-transform: scale(1.25)
+    transform: scale(1.25)
+  
+
+@keyframes scale_text 
+  from 
+    -webkit-transform: scale(1)
+    transform: scale(1)
+  
+  to 
+    -webkit-transform: scale(1.25)
+    transform: scale(1.25)
+  
+
+body .main .nav-menu 
+  border-bottom: 1px solid #000
+  background-color: #212121
+
+
+body .main .nav-menu .row li.col 
+  cursor: pointer
+  font-weight: 600
+  color: #fff
+  list-style-type: none
+  font-size: 1.04166667vw
+  white-space: nowrap
+  overflow: hidden
+  text-transform: uppercase
+  opacity: 0.75
+  -webkit-transition: opacity 0.75s ease-in-out
+  transition: opacity 0.75s ease-in-out
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+
+body .main .nav-menu .row li.col:hover 
+  color: #FF0000
+
+
+body .main .nav-menu .row li.col:nth-of-type(1) 
+  color: #FF0000
+
+
+body .main .home 
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  border-bottom: 1px solid #fff
+  cursor: pointer
+  font-weight: 600
+  background-color: #202124
+
+
+body .main .home a 
+  text-transform: uppercase
+  opacity: 0.75
+  font-size: 2vw
+  opacity: 0.65
+  text-decoration: none
+  color: red
+  -webkit-transition: opacity 0.25s ease-in-out
+  transition: opacity 0.25s ease-in-out
+
+
+body .main .home a:hover 
+  opacity: 1
+
+
+.active 
+  color: #FF0000 !important
+.wrapper
+  li
+    span
+      color: $internationalColor !important
